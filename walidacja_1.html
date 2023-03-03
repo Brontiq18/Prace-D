@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Walidacja</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        Uczeń
+        <hr>
+        <table>
+            <tr>
+                <td>imie i nazwisko:</td><td><input type="text" name="imie" id="imie">*</td>
+            </tr>
+            <tr>
+                <td>e-mail:</td><td><input type="email" name="emile" id="emile">*</td>
+            </tr>
+            <tr>
+                <td>ocena:</td><td><input type="text" name="ocena" id="ocena">*</td>
+            </tr>
+            <tr>
+                <td>data</td><td><input type="date" name="date">*</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="sprawdź" onclick="walidacja_danych()"></td><td><input type="reset" value="resetuj"</td>
+            </tr>
+
+        </table>
+        <hr>
+        Uwaga!<br>
+        Pola ozanczone * są obowiązkowe!
+    </form>
+</body>
+</html>
